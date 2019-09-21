@@ -18,6 +18,7 @@ Example OK Response:
  - `{   "points": 861 }`
 
 Example Error Response:
+
 `{
   "errors": [
     {
