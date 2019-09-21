@@ -34,9 +34,9 @@
 ------------
 ### WEB UI
 
-`http://localhost:8080/` - **home page**
+`http://localhost:8080/` - home page
 
-`http://localhost:8080/calculate` - **page with conversion result**
+`http://localhost:8080/calculate` - page with conversion result
 
  - GET Request
    
