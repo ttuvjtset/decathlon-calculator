@@ -1,26 +1,44 @@
-# decathlon-calculator
 
-**REST API:**
+# Assignment Decathlon Calculator
 
+### REST API:
 `http://localhost:8080/calculatePointsAPI`
 
-POST Request
+**Request:**
 
-Sample JSON request:
+ - POST
+ - Sample JSON request:
 
-`   { "event": 1,
-     "rawPerformance": 11
-   }`
    
-**WEB UI**
+   `   { "event": 1,
+        "rawPerformance": 11    }`
+    
+**Example OK Response:**
 
-`http://localhost:8080/`
+`{   "points": 861 }`
 
+**Example Error Response:**
 
-`http://localhost:8080/calculate`
+`{
+  "errors": [
+    {
+      "code": "Min.eventAndRawPerformance.rawPerformance",
+      "arguments": [
+        "0"
+      ],
+      "message": "Raw score must be a positive number"
+    }
+  ]
+}`
+   
+------------
+### WEB UI
 
-GET Request
+`http://localhost:8080/` - home page
 
-Sample Request: 
+`http://localhost:8080/calculate` - page with conversion result
 
-`?event=1&rawPerformance=15`
+ - GET Request
+   
+   
+ - Sample Request:  `?event=1&rawPerformance=15`
