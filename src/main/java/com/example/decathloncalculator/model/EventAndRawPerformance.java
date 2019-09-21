@@ -17,7 +17,7 @@ public class EventAndRawPerformance {
     @NotNull(message = "Event sequence number must be specified")
     private String event;
 
-    @Min(value = 0, message = "Raw score must be a positive number")
-    @NotNull(message = "Raw score must be specified")
+    @Min(value = 0, message = "Raw performance must be a positive number")
+    @NotNull(message = "Raw performance must be specified")
     private String rawPerformance;
 }
