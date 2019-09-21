@@ -4,7 +4,7 @@
 ### REST API:
 `http://localhost:8080/calculatePointsAPI`
 
-Request:
+**Request:**
 
  - POST
  - Sample JSON request:
@@ -13,11 +13,11 @@ Request:
    `   { "event": 1,
         "rawPerformance": 11    }`
     
-Example OK Response:
+**Example OK Response:**
 
- - `{   "points": 861 }`
+`{   "points": 861 }`
 
-Example Error Response:
+**Example Error Response:**
 
 `{
   "errors": [
@@ -34,9 +34,9 @@ Example Error Response:
 ------------
 ### WEB UI
 
-`http://localhost:8080/` - home page
+`http://localhost:8080/` - **home page**
 
-`http://localhost:8080/calculate` - page with conversion result
+`http://localhost:8080/calculate` - **page with conversion result**
 
  - GET Request
    
